@@ -20,6 +20,12 @@ header{
 
 .header-nav > :first-child{
   margin-right: auto;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.bar{
+  display: none;
 }
 
 .logo1 {
@@ -352,7 +358,6 @@ main{
 
 .contact2 p{
   font-size: 50px;
-  margin-right: 20px;
 }
 
 .sns{
@@ -380,6 +385,195 @@ footer{
   font-size: 16px;
   color: #FAFAFA;
   line-height: 60px;
+}
+
+@media screen and (max-width:768px) {
+
+  header{
+    height: 50px;
+  }
+
+  .header-nav{
+    width : 90%;
+  }
+
+  .bar{
+    display: inline-block;
+    color: white;
+  }
+
+  .logo1 {
+    height: 50px;
+  }
+
+  .nav-list{
+    display: none;
+  }
+
+  .main-visual{
+    background-image: url("file:///Users/yamoritaketo/Desktop/webcamp/skillup/img/code.png");
+  }
+  .sample-text h1{
+    font-size: 40px;
+  }
+
+  .sample-text p{
+    font-size: 18px;
+  }
+
+  .main1{
+    width: 90%;
+  }
+
+  .webcamp{
+    width: 300px;
+    height: 250px;
+  }
+
+  .image-box{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .webcamp:nth-child(1){
+    display: none;
+  }
+
+  .webcamp:nth-child(2){
+    margin-right: 0;
+  }
+
+  .webcamp:nth-child(3){
+    display: none;
+  }
+
+  .webcamp:nth-child(4){
+    margin-right: 0;
+  }
+
+  .webcamp:nth-child(5){
+    display: none;
+  }
+
+  .webcamp:nth-child(6){
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .main2{
+    width: 100%;
+  }
+
+  .main22{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .strength{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .strength-details{
+    margin-right: 0;
+  }
+
+
+  .profile{
+    width:90%;
+  }
+
+  .profile-details{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-details p{
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  .profile-details1{
+    width: 90%;
+  }
+
+  .profile-details2{
+    width: 90%;
+    text-align: center;
+  }
+
+  .contact{
+    padding:90px 0;
+  }
+
+  .contact-details{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .contact-details2{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact1{
+    width: 90%;
+    text-align: center;
+  }
+
+  .contact-details p{
+    margin: 30px 0;
+    font-size: 16px;
+    color:#000000;
+  }
+
+  .contact1 a{
+    display:inline-block;
+    margin-bottom: 20px;
+  }
+
+  .contact2{
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact2 p{
+    margin-right: 0px;
+    font-size: 50px;
+  }
+
+  .sns{
+    width: 90%;
+    text-align: center;
+    margin:0 auto;
+  }
+
+  .snslogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+  .snslogo p:nth-child(1){
+    margin-right: 8px;
+  }
+
+  .snslogo p:nth-child(3){
+    margin-right: 0;
+    margin-left: 8px;
+  }
+
+  .snslogo i{
+    display:inline-block;
+    margin-right: 0px;
+  }
+
+
+
+
 }
 
 
