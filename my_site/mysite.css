@@ -1,0 +1,387 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 70px;
+  background-color: #ec715f;
+  width:100%;
+}
+
+.header-nav{
+  margin: 0 auto;
+  width : 1024px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-nav > :first-child{
+  margin-right: auto;
+}
+
+.logo1 {
+  height: 70px;
+}
+
+.nav-list{
+  color: #FAFAFA;
+  margin: 0 30px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.main-visual{
+  height: 650px;
+  background-image: url("file:///Users/yamoritaketo/Desktop/webcamp/skillup/img/mv.png");
+  background-size: cover;
+  background-position: center;
+  text-align:center;
+}
+
+.sample-text{
+  padding-top: 200px;
+  color:#FAFAFA;
+}
+
+.sample-text h1{
+  font-size: 64px;
+}
+
+.sample-text p{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+main{
+  width: 100%;
+}
+
+.portfolios{
+  width:100%;
+  background-color: #ECEFF1;
+}
+
+
+.main1{
+  width:920px;
+  margin:0 auto;
+  text-align: center;
+  background-color: #ECEFF1;
+}
+
+.main1 h2{
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.main1 span{
+  display: inline-block;
+  position: relative;
+}
+
+.main1 span:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px; /*下線の上下位置調整*/
+  display: inline-block;
+  width: 70px; /*下線の幅*/
+  height: 3px; /*下線の太さ*/
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%); /*位置調整*/
+  background-color: #EC715F; /*下線の色*/
+}
+.main1 p{
+  padding-top: 30px;
+}
+
+.image-box{
+  padding-top: 30px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.webcamp{
+  width: 300px;
+  height: 250px;
+}
+
+.webcamp:nth-child(1){
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.webcamp:nth-child(2){
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.webcamp:nth-child(3){
+  margin-bottom: 10px;
+}
+
+.webcamp:nth-child(4){
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.webcamp:nth-child(5){
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.webcamp:nth-child(6){
+  margin-bottom: 10px;
+}
+
+.main2{
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.main2 span{
+  display: inline-block;
+  position: relative;
+}
+
+.main2 span:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%);
+  background-color: #EC715F;
+}
+
+.main2 p{
+  padding: 30px 0;
+}
+
+.strength{
+  display: flex;
+}
+
+.strength-details{
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.strength-details i{
+  font-size: 60px;
+}
+
+.strength-details h3{
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.strength-details p{
+  text-align: left;
+  font-size: 16px;
+}
+
+.strength-details:nth-child(3){
+  margin-right: 0;
+}
+
+.main3{
+  background-color: #ECEFF1;
+  padding: 90px 0;
+}
+
+.profile{
+  width:1024px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.profile p{
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+.profile h2{
+  font-size: 32px;
+  color: #000000;
+}
+
+.profile span{
+  display: inline-block;
+  position: relative;
+}
+
+.profile span:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%);
+  background-color: #EC715F;
+}
+
+.profile-details{
+  display: flex;
+}
+
+.profile-details p{
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.profile-details1{
+  width: 512px;
+}
+
+.profile-details2 h3{
+  font-size: 20px;
+}
+
+.profile-details img{
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.profile-details2{
+  width: 512px;
+  text-align: left;
+}
+
+.contact{
+  padding:90px 0;
+}
+
+.contact-details{
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+.contact-details2{
+  display:flex;
+
+}
+
+.contact1{
+  width: 400px;
+  text-align: left;
+}
+
+.contact3{
+  width: 130px;
+  margin:0 auto;
+}
+
+.contact a{
+  color:#000000;
+}
+
+.contact-details span{
+  display: inline-block;
+  position: relative;
+}
+
+.contact-details h2{
+  font-size: 32px;
+  color:#000000;
+}
+
+.contact-details p{
+  margin: 30px 0;
+  font-size: 16px;
+  color:#000000;
+}
+
+.contact-details span:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%);
+  background-color: #EC715F;
+}
+
+.contact1 h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact1 a{
+  display:inline-block;
+  margin-bottom: 20px;
+}
+
+.contact2{
+  width: 400px;
+}
+
+.contact2 h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact2 p{
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.sns{
+  width:170px;
+  margin:0 auto;
+  text-align: left;
+}
+
+
+.snslogo{
+  display: flex;
+  margin-right: 20px;
+}
+
+.snslogo i{
+  display:inline-block;
+  margin-right: 20px;
+}
+
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  text-align:center;
+  font-size: 16px;
+  color: #FAFAFA;
+  line-height: 60px;
+}
+
+
+
+
